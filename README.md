@@ -33,7 +33,7 @@ A full-stack to-do list application built using **React** for the front-end, **N
 
 **Deployment**:
 - Vercel for the front-end
-- Heroku (or any other platform of your choice) for the back-end
+- Render (or any other platform of your choice) for the back-end
 
 ---
 
@@ -53,3 +53,10 @@ Make sure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/todo-list-app.git
+
+2.Navigate to the project directory:
+   ```bash
+   cd todo-list-app
+
+
+
