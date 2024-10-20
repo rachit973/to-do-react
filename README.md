@@ -2,9 +2,6 @@
 
 A full-stack to-do list application built using **React** for the front-end, **Node.js** for the back-end, and **MongoDB** for the database. This application allows users to add, view, edit, delete, and mark tasks as completed. The back-end handles data storage and provides a RESTful API for task management. The app is responsive and designed to work well on both desktop and mobile devices.
 
-## Live Demo
-
-[Add the URL after deployment]
 
 ---
 
@@ -55,8 +52,41 @@ Make sure you have the following installed:
    git clone https://github.com/your-username/todo-list-app.git
 
 2.Navigate to the project directory:
-   ```bash
+ ```bash
    cd todo-list-app
+
+Navigate to the server folder:
+bash
+Copy code
+cd server
+Install dependencies:
+bash
+Copy code
+npm install
+Create a .env file and add your MongoDB connection string:
+bash
+Copy code
+MONGO_URI=<your_mongo_connection_string>
+Start the back-end server:
+bash
+Copy code
+npm run dev
+Set up the Front-End:
+
+Navigate to the client folder:
+bash
+Copy code
+cd ../client
+Install dependencies:
+bash
+Copy code
+npm install
+Start the front-end development server:
+bash
+Copy code
+npm start
+Open your browser and go to http://localhost:3000 to view the app.
+  
 
 
 
